@@ -1,0 +1,121 @@
+2022/08/29 08:41:50.640 20947    2088216  0   Logger started.
+2022/08/29 08:41:52.967 20947    2088216  0   InterProcessBase::SecureNetwork created
+2022/08/29 08:41:53.062 20947    2088216  0   VoIP: Constructor
+2022/08/29 08:41:53.075 20947    2088256  0   Generating new RSA private/public key pair
+2022/08/29 08:41:53.087 20947    2088256  0   Logger started.
+2022/08/29 08:41:53.088 20947    2088256  0   InitializeDeviceManagementV2
+2022/08/29 08:41:53.090 20947    2088256  0   ManagedDeviceClientModule: Trigger Startup
+2022/08/29 08:41:53.090 20947    2088256  0   void MDv2::ProviderRegistrationController::UpdateRegistration(): device is offline
+2022/08/29 08:41:53.090 20947    2088256  0   ManagedDeviceClientModule::ManagedDeviceClientModule(): Started ManagedDevice V2 module
+2022/08/29 08:41:53.091 20947    2088256  0   SingleUserSessionDesignator: New active session: 501
+2022/08/29 08:41:53.091 20947    2088256  0   MachineIdentifiersAccessPlist: Import identifiers.
+2022/08/29 08:41:53.094 20947    2088256  0   MachineIdentifiersAccessPlist: Migrate V0 identifier.
+2022/08/29 08:41:53.095 20947    2088256  0   MachineIdentifiersAccessPlist: Migrate V1 identifier.
+2022/08/29 08:41:53.101 20947    2088256  0   
+Start:              2022/08/29 08:41:53.100 (CDT)
+Version:            15.33.2117 QS
+Version short hash: 
+ID:                 0
+Loglevel:           Info
+License:            0
+IC:                 1003359999
+CPU:                
+OS:                 iOS 16.0 (64-bit)
+IP:                 172.20.20.20
+MID:                8915CDA1-22D9-4C0B-8B11-1045F4AC2A0E_iPhone<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~a9d596d5b6051627659faf739c58698d
+MIDv:               0
+Proxy-Settings:     Type=1 IP= User=
+
+2022/08/29 08:41:53.101 20947    2088256  0   LanguageControl: device language is 'en'
+2022/08/29 08:41:53.102 20947    2088256  0   Starting intra process connection
+2022/08/29 08:41:53.102 20947    2088302  0   NetworkControl::UpdateOnlineState alwaysOnline=0 delayOffline=0 otherProcess=0 restart=0 termsOfUseAccepted=1
+2022/08/29 08:41:53.102 20947    2088302  0   NetworkControl::UpdateOnlineState alwaysOnline=0 delayOffline=0 otherProcess=0 restart=0 termsOfUseAccepted=1
+2022/08/29 08:41:53.102 20947    2088306  0   NetWatchdog: Internet is now connected
+2022/08/29 08:41:53.102 20947    2088302  0   IpcInitConnection::Received_Control_InitIPC: Connecting process: 20947
+2022/08/29 08:41:53.102 20947    2088301  0   CKeepAliveClientClient::HandleStartKeepAlive: going online not wanted!
+2022/08/29 08:41:53.103 20947    2088299  0   NetworkControl::UpdateOnlineState alwaysOnline=0 delayOffline=0 otherProcess=1 restart=0 termsOfUseAccepted=1
+2022/08/29 08:41:53.103 20947    2088299  0   TeamViewer is going online!
+2022/08/29 08:41:53.103 20947    2088299  0   CKeepAliveClientClient::DoReconnectInternal: doing nothing, state = 0
+2022/08/29 08:41:53.103 20947    2088299  0   CKeepAliveClientClient::StartConnect(): Protocol 8 proxy -- IP router4.teamviewer.com
+2022/08/29 08:41:53.103 20947    2088302  0   IpcInitConnection::Received_Control_InitIPC: Send InitIPC_Response to process: 20947
+2022/08/29 08:41:53.104 20947    2088302  0   Received Control_InitIPC_Response processtype=1
+2022/08/29 08:41:53.104 20947    2088302  0   Received Control_InitIPC_Response runningProcesses=3
+2022/08/29 08:41:53.104 20947    2088302  0   IPCConnection: all processes 3 completely initialized
+2022/08/29 08:41:53.104 20947    2088256  0   InterProcessBase::SetReadyToProcessCommands(1)
+2022/08/29 08:41:53.104 20947    2088298  0   NetworkControl::UpdateOnlineState alwaysOnline=0 delayOffline=0 otherProcess=1 restart=0 termsOfUseAccepted=1
+2022/08/29 08:41:53.105 20947    2088256  0!  OptOutManager::[]ResultCB: Send message result 0
+2022/08/29 08:41:53.105 20947    2088299  0   Activating Router Carrier
+2022/08/29 08:41:53.385 20947    2088300  0   CTcpConnectionBase[1]::ConnectEndpoint(): Connecting to endpoint 2605:380:57:351:162:250:7:72:5938
+2022/08/29 08:41:53.452 20947    2088299  0   KeepAliveSessionOutgoing::ConnectSuccessHandler(): KeepAliveConnect to router4.teamviewer.com successful
+2022/08/29 08:41:53.452 20947    2088299  0   KeepAliveSessionOutgoing::KeepAliveChannelInitialized(): KeepAliveConnection to router4.teamviewer.com initialized
+2022/08/29 08:41:53.452 20947    2088299  0!! KeepAliveSession::KeepAliveChannelInitialized(): KeepAlive-Connection initialized with ID 0 (IP: 2605:380:57:351:162:250:7:72), SendQueue 0 (0 Bytes), SendIndex 0, AckIndex 0, RemoteSessionID 1
+2022/08/29 08:41:53.452 20947    2088299  0!  KeepAliveSession::SendCompleteQueue(): SendQueue: 0 (0 Bytes), RemoteSession 1 (ClientID 0), Time: 0 ms
+2022/08/29 08:41:53.453 20947    2088299  0   IdentifyRequest: ID = 0, IC = 1003359999, IsTemporaryID = 0, InitiativeGUID = f6d7a593-5c8b-45b1-acac-2d63e62ce304, CanStoreGUID = 1, MIDHistory = {8915CDA1-22D9-4C0B-8B11-1045F4AC2A0E_iPhone<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~a9d596d5b6051627659faf739c58698d|i8915cda1-22d9-4c0b-8b11-1045f4ac2a0e<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~a9d596d5b6051627659faf739c58698d}, MIDv = 0, MaxSupportedMIDv = 1, RebootHash = {818676e8-de2c-570e-f6e9-cb352b53bf09}, MIDFlags = 256, MIDForceUpdateFlags = 0, AttractionGUID = 00000000-0000-0000-0000-000000000000, TerminalServerIDsInToken = 0
+2022/08/29 08:41:53.589 20947    2088297  0   TVRouterClock: received router time: 20220829T134153.680088
+2022/08/29 08:41:53.589 20947    2088297  0   TVRouterClock Schedule next request in 43200 seconds
+2022/08/29 08:41:54.366 20947    2088299  0   SelfSignedCertificateManager::CallbackWithCertificateData: created new 4096 bit RSA private key with fingerprint SHA256:irl+ifsE+uOwdoo1lXcrMGKm0+jyOyEuxSe5tOc3zVc
+2022/08/29 08:41:55.090 20947    2088302  0   Login::Identify::ManageLogin(): ID: 1033393103 IC 1003359999 MIDv1
+2022/08/29 08:41:55.090 20947    2088302  0   CKeepAliveClientClient::OnKeepAliveSucceeded(): Protocol 8 proxy -- IP 2605:380:57:351:162:250:7:72
+2022/08/29 08:41:55.090 20947    2088302  0   TeamViewerIDTracker::UpdateMachineID: New machineID = 1033393103
+2022/08/29 08:41:55.091 20947    2088300  0   IDLabelContent::UpdateImpl() IDs changed: SessionID "1033393103", ServerID "0"
+2022/08/29 08:41:57.039 20947    2088300  0   ManagedDeviceController::RegisterForOnlineState(): Device came online. Triggering initial sync.
+2022/08/29 08:41:57.040 20947    2088300  0   UpdateStates::Start(): No device state found, reporting Device as not managed
+2022/08/29 08:41:57.040 20947    2088300  0   Client logged in and online
+2022/08/29 08:41:57.041 20947    2088299  0   InterProcessBase::SecureNetworkCallbackHandle created (RegistrationID: 2e1fd6c0-4003-4a48-a8a0-04d6f60f38e5)
+2022/08/29 08:41:57.041 20947    2088299  0   SecureNetworkIPCAdapter::RegisterSharedBCmdCallback(): CC: 34, RegistrationID: 2e1fd6c0-4003-4a48-a8a0-04d6f60f38e5, DyngateID: 1033393103, ProcessType: 2, SessionID: 501
+2022/08/29 08:41:57.402 20947    2088300  0   RequestIPAddress::RequestResult: Client country code: US
+2022/08/29 08:41:57.812 20947    2088302  0   auto MDv2::Sync::UpdateStates::ReportUnmanagedDevice()::(anonymous class)::operator()(ProviderFunctions::IReportUnmanagedDevice::ErrorCode) const: successfully reported as unmanaged
+2022/08/29 08:41:57.815 20947    2088302  0   ManagedDeviceController::OnSyncFinished(): Sync finished
+2022/08/29 08:42:57.181 20947    2088257  0!  BackgroundExecution Application entered background, backgroundTimeRemaining: 23.799125958350487
+2022/08/29 08:43:11.836 20947    2088216  0!  BackgroundExecution Application will be terminated in 9.09215912502259 seconds, going offline and stopping clients
+2022/08/29 08:43:11.837 20947    2088216  0   NetWatchdog: OnStandby going to sleep
+2022/08/29 08:43:11.837 20947    2088216  0   NetWatchdog: Completely disconnected. Going offline.
+2022/08/29 08:43:11.839 20947    2088299  0   void MDv2::ProviderRegistrationController::UpdateRegistration(): device is offline
+2022/08/29 08:43:11.912 20947    2088301  0!  KeepAliveSessionOutgoing::ConnectEndedHandler(): KeepAliveConnection[1] with router4.teamviewer.com ended
+2022/08/29 09:10:54.982 20947    2088216  0!  DNSServiceRegisterReply returned with error unknown error
+2022/08/29 09:10:54.992 20947    2088302  0   IConnection[1]::HandleShutdownTimer(): Shutdown of connection took longer than 12 seconds. Closing Connection. (ConnectionType Type_Tcp)
+2022/08/29 09:10:55.426 20947    2088216  0   NetWatchdog: OnStandby woke up
+2022/08/29 09:10:55.430 20947    2088299  0   NetworkControl::UpdateOnlineState alwaysOnline=0 delayOffline=0 otherProcess=1 restart=0 termsOfUseAccepted=1
+2022/08/29 09:10:55.435 20947    2088300  0   CKeepAliveClientClient::StartConnect(): Protocol 8 proxy -- IP router4.teamviewer.com
+2022/08/29 09:10:55.442 20947    2088300  0   Activating Router Carrier
+2022/08/29 09:10:55.752 20947    2088297  0   CTcpConnectionBase[2]::ConnectEndpoint(): Connecting to endpoint 2605:380:32:351:162:250:5:84:5938
+2022/08/29 09:10:55.824 20947    2088302  0   KeepAliveSessionOutgoing::ConnectSuccessHandler(): KeepAliveConnect to router4.teamviewer.com successful
+2022/08/29 09:10:55.824 20947    2088302  0   KeepAliveSessionOutgoing::KeepAliveChannelInitialized(): KeepAliveConnection to router4.teamviewer.com initialized
+2022/08/29 09:10:55.824 20947    2088302  0!! KeepAliveSession::KeepAliveChannelInitialized(): KeepAlive-Connection initialized with ID 0 (IP: 2605:380:32:351:162:250:5:84), SendQueue 0 (0 Bytes), SendIndex 0, AckIndex 0, RemoteSessionID 2
+2022/08/29 09:10:55.825 20947    2088302  0!  KeepAliveSession::SendCompleteQueue(): SendQueue: 0 (0 Bytes), RemoteSession 2 (ClientID 0), Time: 0 ms
+2022/08/29 09:10:55.828 20947    2088302  0   IdentifyRequest: ID = 1033393103, IC = 1003359999, IsTemporaryID = 0, InitiativeGUID = f6d7a593-5c8b-45b1-acac-2d63e62ce304, CanStoreGUID = 1, MIDHistory = {8915CDA1-22D9-4C0B-8B11-1045F4AC2A0E_iPhone<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~a9d596d5b6051627659faf739c58698d|i8915cda1-22d9-4c0b-8b11-1045f4ac2a0e<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~a9d596d5b6051627659faf739c58698d}, MIDv = 1, MaxSupportedMIDv = 1, RebootHash = {818676e8-de2c-570e-f6e9-cb352b53bf09}, MIDFlags = 256, MIDForceUpdateFlags = 0, AttractionGUID = 00000000-0000-0000-0000-000000000000, TerminalServerIDsInToken = 0
+2022/08/29 09:10:55.953 20947    2088297  0   TVRouterClock: received router time: 20220829T141056.033698
+2022/08/29 09:10:55.954 20947    2088297  0   TVRouterClock Schedule next request in 43200 seconds
+2022/08/29 09:10:56.563 20947    2088301  0   Login::Identify::ManageLogin(): ID: 1033393103 IC 1003359999 MIDv1
+2022/08/29 09:10:56.564 20947    2088301  0   CKeepAliveClientClient::OnKeepAliveSucceeded(): Protocol 8 proxy -- IP 2605:380:32:351:162:250:5:84
+2022/08/29 09:10:57.733 20947    2088297  0   ManagedDeviceController::RegisterForOnlineState(): Device came online. Triggering initial sync.
+2022/08/29 09:10:57.739 20947    2088297  0   UpdateStates::Start(): Device has been marked unmanaged. Stopping sync.
+2022/08/29 09:10:57.739 20947    2088297  0   ManagedDeviceController::OnSyncFinished(): Sync finished
+2022/08/29 09:10:57.744 20947    2088297  0   Client logged in and online
+2022/08/29 09:13:16.080 20947    2105065  0!  BackgroundExecution Application entered background, backgroundTimeRemaining: 23.816178583336296
+2022/08/29 09:13:30.796 20947    2088216  0!  BackgroundExecution Application will be terminated in 9.081573083327385 seconds, going offline and stopping clients
+2022/08/29 09:13:30.797 20947    2088216  0   NetWatchdog: OnStandby going to sleep
+2022/08/29 09:13:30.797 20947    2088216  0   NetWatchdog: Completely disconnected. Going offline.
+2022/08/29 09:13:30.800 20947    2088300  0   void MDv2::ProviderRegistrationController::UpdateRegistration(): device is offline
+2022/08/29 09:36:15.873 20947    2088298  0!! CTcpConnectionBase[2]::HandleReadError(): Error occured.  ClientID: 964938869 IP: 2605:380:32:351:162:250:5:84 Category: system, Error: 57 (Socket is not connected)
+2022/08/29 09:36:15.875 20947    2088300  0   Carrier[2]::HandleShutdownTimer(): Timeout (20 s) reached, ID: 964938869, IP: 2605:380:32:351:162:250:5:84:5938, Type_Tcp, SessionType_MainKeepAliveConnection, Reason: PlannedDisconnect/PlannedDisconnect, SupportsEndSession: 1, EndSessionWasRecv: 0, FinalCmdWasAck: 0, FinalAckWasSent: 0
+2022/08/29 09:36:15.876 20947    2088300  0   Carrier[2]::EndCarrierInternal(): ClientID: 964938869 SupportsEndSession: 1, SessionType: SessionType_MainKeepAliveConnection, SendQueue: 1 (0 Bytes), CurrentSendQueue: 0 (0 Bytes), SendCache: 1 (4 Bytes)
+2022/08/29 09:36:15.888 20947    2088300  0!  KeepAliveSessionOutgoing::ConnectEndedHandler(): KeepAliveConnection[2] with router4.teamviewer.com ended
+2022/08/29 09:36:16.312 20947    2088216  0   NetWatchdog: OnStandby woke up
+2022/08/29 09:36:16.316 20947    2088297  0   NetworkControl::UpdateOnlineState alwaysOnline=0 delayOffline=0 otherProcess=1 restart=0 termsOfUseAccepted=1
+2022/08/29 09:36:16.323 20947    2088298  0   CKeepAliveClientClient::StartConnect(): Protocol 8 proxy -- IP router6.teamviewer.com
+2022/08/29 09:36:16.330 20947    2088298  0   Activating Router Carrier
+2022/08/29 09:36:16.730 20947    2088302  0   CTcpConnectionBase[3]::ConnectEndpoint(): Connecting to endpoint 2605:380:58:351:188:172:251:41:5938
+2022/08/29 09:36:16.808 20947    2088299  0   KeepAliveSessionOutgoing::ConnectSuccessHandler(): KeepAliveConnect to router6.teamviewer.com successful
+2022/08/29 09:36:16.808 20947    2088299  0   KeepAliveSessionOutgoing::KeepAliveChannelInitialized(): KeepAliveConnection to router6.teamviewer.com initialized
+2022/08/29 09:36:16.808 20947    2088299  0!! KeepAliveSession::KeepAliveChannelInitialized(): KeepAlive-Connection initialized with ID 0 (IP: 2605:380:58:351:188:172:251:41), SendQueue 0 (0 Bytes), SendIndex 0, AckIndex 0, RemoteSessionID 3
+2022/08/29 09:36:16.809 20947    2088299  0!  KeepAliveSession::SendCompleteQueue(): SendQueue: 0 (0 Bytes), RemoteSession 3 (ClientID 0), Time: 0 ms
+2022/08/29 09:36:16.811 20947    2088299  0   IdentifyRequest: ID = 1033393103, IC = 1003359999, IsTemporaryID = 0, InitiativeGUID = f6d7a593-5c8b-45b1-acac-2d63e62ce304, CanStoreGUID = 1, MIDHistory = {8915CDA1-22D9-4C0B-8B11-1045F4AC2A0E_iPhone<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~a9d596d5b6051627659faf739c58698d|i8915cda1-22d9-4c0b-8b11-1045f4ac2a0e<~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~a9d596d5b6051627659faf739c58698d}, MIDv = 1, MaxSupportedMIDv = 1, RebootHash = {818676e8-de2c-570e-f6e9-cb352b53bf09}, MIDFlags = 256, MIDForceUpdateFlags = 0, AttractionGUID = 00000000-0000-0000-0000-000000000000, TerminalServerIDsInToken = 0
+2022/08/29 09:36:16.935 20947    2088297  0   TVRouterClock: received router time: 20220829T143616.993891
+2022/08/29 09:36:16.936 20947    2088297  0   TVRouterClock Schedule next request in 43200 seconds
+2022/08/29 09:36:17.596 20947    2088298  0   Login::Identify::ManageLogin(): ID: 1033393103 IC 1003359999 MIDv1
+2022/08/29 09:36:17.596 20947    2088298  0   CKeepAliveClientClient::OnKeepAliveSucceeded(): Protocol 8 proxy -- IP 2605:380:58:351:188:172:251:41
+2022/08/29 09:36:18.569 20947    2088298  0   ManagedDeviceController::RegisterForOnlineState(): Device came online. Triggering initial sync.
+2022/08/29 09:36:18.573 20947    2088298  0   UpdateStates::Start(): Device has been marked unmanaged. Stopping sync.
+2022/08/29 09:36:18.573 20947    2088298  0   ManagedDeviceController::OnSyncFinished(): Sync finished
+2022/08/29 09:36:18.578 20947    2088298  0   Client logged in and online

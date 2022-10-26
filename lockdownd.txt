@@ -1,0 +1,200 @@
+09/30/22 10:35:53.814067 pid=80 main: Starting Up
+09/30/22 10:35:53.862481 pid=80 enumerate_pair_records: Failed to open /private/var/root/Library/Lockdown/pair_records/: 2 (No such file or directory)
+09/30/22 10:35:53.864967 pid=80 _load_dict: Failed to load /private/var/root/Library/Lockdown/data_ark.plist.
+09/30/22 10:35:53.864991 pid=80 data_ark_load: Failed to load /private/var/root/Library/Lockdown/data_ark.plist.
+09/30/22 10:35:53.865128 pid=80 mglog: libMobileGestalt utility.c:71: Could not open /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.mobilegestaltcache/Library/Caches/com.apple.MobileGestalt.plist: No such file or directory
+09/30/22 10:35:53.868756 pid=80 mglog: libMobileGestalt MGIOKitHelper.m:629: Node baseband found
+09/30/22 10:35:53.869458 pid=80 data_ark_set_block_invoke: dirtied by changing -HasSiDP
+09/30/22 10:35:53.917976 pid=80 copy_device_name: SCDynamicStoreCopyComputerName failed: No such key
+09/30/22 10:35:55.091513 pid=80 data_ark_set_block_invoke: dirtied by changing -DeviceName
+09/30/22 10:35:55.091699 pid=80 data_ark_set_block_invoke: dirtied by changing -ProtocolVersion
+09/30/22 10:35:55.092114 pid=80 perform_migration: Detected upgrade from (null) to 16.0.2.
+09/30/22 10:35:55.092141 pid=80 enumerate_pair_records: Failed to open /private/var/root/Library/Lockdown/pair_records/: 2 (No such file or directory)
+09/30/22 10:35:55.093645 pid=80 destroy_pairing_keypair_pems: Failed to delete /private/var/root/Library/Lockdown/device_private_key.pem: No such file or directory
+09/30/22 10:35:55.093660 pid=80 destroy_pairing_keypair_pems: Failed to delete /private/var/root/Library/Lockdown/device_public_key.pem: No such file or directory
+09/30/22 10:35:55.155982 pid=80 _pairing_keypair_worker_block_invoke_2: Destroying old pair records.
+09/30/22 10:35:55.156529 pid=80 perform_migration: Successfully performed upgrade key rolling.
+09/30/22 10:35:55.156545 pid=80 data_ark_set_block_invoke: dirtied by changing -DarkProductVersion
+09/30/22 10:35:55.156866 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 10:35:55.156980 pid=80 enumerate_pair_records: Failed to open /private/var/root/Library/Lockdown/pair_records/: 2 (No such file or directory)
+09/30/22 10:35:55.156995 pid=80 data_ark_set_block_invoke: dirtied by changing -PairRecordProtectionClass
+09/30/22 10:35:55.157312 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 10:35:55.157328 pid=80 lockstart_local: Build version: 20A380
+09/30/22 10:35:55.157702 pid=80 lockstart_local: Data Migration Completed: false
+09/30/22 10:35:55.158028 pid=80 get_device_type_internal_block_invoke: product_type: iPhone14,3
+
+09/30/22 10:35:55.158036 pid=80 get_device_type_internal_block_invoke: has_telephony: true, should_hactivate: false
+09/30/22 10:35:55.158042 pid=80 get_device_type_internal_block_invoke: baseband_class: 3, cert_type 1
+09/30/22 10:35:55.158048 pid=80 _load_product_type: using Raptor Certs
+09/30/22 10:35:55.158055 pid=80 data_ark_set_block_invoke: dirtied by changing -UseRaptorCerts
+09/30/22 10:35:55.208387 pid=80 performBootSessionIntialization: Boot session changed (reboot detected).
+09/30/22 10:35:55.210727 pid=80 performBootSessionIntialization: Device is in buddy upon new boot session, deleting all existing pair records.
+09/30/22 10:35:55.311820 pid=80 _pairing_keypair_worker_block_invoke_2: Destroying old pair records.
+09/30/22 10:35:55.312640 pid=80 data_ark_set_block_invoke: dirtied by changing -BootSessionID
+09/30/22 10:35:55.313119 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 10:35:55.339206 pid=80 refresh_remote_services_block_invoke: Done resetting remote devices.
+09/30/22 10:35:55.339292 pid=80 service_ark_load: Refreshed remote services.
+09/30/22 10:35:55.339982 pid=80 intialize_wifi_syncing: Full service name is '28:8e:ec:c3:d0:79@fe80::2a8e:ecff:fec3:d079-supportsRP._apple-mobdev2._tcp.local.'.
+09/30/22 10:35:55.340066 pid=80 notify_configd_block_invoke_2: Pinged configd, USB is now enabled.
+09/30/22 10:35:56.996241 pid=80 handle_set_value: profiled attempting to set [com.apple.mobile.restriction]:[ProhibitAppInstall] to [false] of type 21
+09/30/22 10:35:56.996336 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.restriction-ProhibitAppInstall
+09/30/22 10:35:57.009044 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 10:35:57.009417 pid=80 handle_set_value: profiled attempting to set [com.apple.mobile.restriction]:[ProhibitAppDelete] to [false] of type 21
+09/30/22 10:35:57.009439 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.restriction-ProhibitAppDelete
+09/30/22 10:35:57.015845 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:36:03.060523 pid=80 main_block_invoke: Received notification: com.apple.datamigrator.migrationDidFinish
+09/30/22 12:36:03.066976 pid=80 migrator_finished_callback: Data Migration is complete.
+09/30/22 12:36:51.844686 pid=80 handle_set_value: Setup attempting to set [NULL]:[ActivationStateAcknowledged] to [true] of type 21
+09/30/22 12:36:51.844824 pid=80 data_ark_set_block_invoke: dirtied by changing -ActivationStateAcknowledged
+09/30/22 12:36:51.849980 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:38:18.427907 pid=80 password_changed_callback: Device passcode changed.
+09/30/22 12:38:18.428078 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.wireless_lockdown-EnableWifiDebugging
+09/30/22 12:38:18.429173 pid=80 bonjour_service_callback: Bonjour (sync) service notification.
+09/30/22 12:40:09.181183 pid=80 handle_get_value: backupd attempting to get [com.apple.mobile.backup]:[CloudBackupEnabled]
+09/30/22 12:40:09.181444 pid=80 special_case_get: key CloudBackupEnabled
+09/30/22 12:40:09.183998 pid=80 set_response_error: handle_get_value MissingValue
+09/30/22 12:40:09.184530 pid=80 handle_set_value: backupd attempting to set [com.apple.mobile.backup]:[CloudBackupEnabled] to [false] of type 21
+09/30/22 12:40:09.186618 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.backup-CloudBackupEnabled
+09/30/22 12:40:09.187522 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:40:34.341482 pid=80 handle_get_value: backupd attempting to get [com.apple.mobile.backup]:[CloudBackupEnabled]
+09/30/22 12:40:34.341618 pid=80 special_case_get: key CloudBackupEnabled
+09/30/22 12:40:34.343159 pid=80 handle_set_value: backupd attempting to set [com.apple.mobile.backup]:[CloudBackupEnabled] to [false] of type 21
+09/30/22 12:40:34.343803 pid=80 data_ark_remove_extended_block_invoke: dirtied by removing com.apple.mobile.backup-CloudBackupEnabled
+09/30/22 12:40:34.343910 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.backup-CloudBackupEnabled
+09/30/22 12:40:34.347790 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:42:27.893772 pid=80 handle_set_value: backupd attempting to set [com.apple.purplebuddy]:[SetupState] to [RestoringFromBackup] of type 7
+09/30/22 12:42:27.893870 pid=80 data_ark_set_block_invoke: dirtied by changing -FirstPurpleBuddyCompletion
+09/30/22 12:42:27.894926 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:42:27.895731 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.purplebuddy-SetupState
+09/30/22 12:42:27.896484 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:42:27.896549 pid=80 handle_set_value: backupd attempting to set [com.apple.purplebuddy]:[RestoreState] to [RestoringFromBackup] of type 7
+09/30/22 12:42:27.897131 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.purplebuddy-RestoreState
+09/30/22 12:42:27.897789 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:25.399994 pid=80 handle_set_value: backupd attempting to set [com.apple.purplebuddy]:[SetupState] to [BackgroundRestoringFromiCloudBackup] of type 7
+09/30/22 12:45:25.401641 pid=80 data_ark_remove_extended_block_invoke: dirtied by removing com.apple.purplebuddy-SetupState
+09/30/22 12:45:25.401707 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.purplebuddy-SetupState
+09/30/22 12:45:25.402381 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:25.402460 pid=80 handle_set_value: backupd attempting to set [com.apple.purplebuddy]:[RestoreState] to [BackgroundRestoringFromiCloudBackup] of type 7
+09/30/22 12:45:25.403252 pid=80 data_ark_remove_extended_block_invoke: dirtied by removing com.apple.purplebuddy-RestoreState
+09/30/22 12:45:25.403295 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.purplebuddy-RestoreState
+09/30/22 12:45:25.404849 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:25.406924 pid=80 handle_get_value: backupd attempting to get [com.apple.TerminalFlashr]:[(null)]
+09/30/22 12:45:25.407355 pid=80 handle_get_value: backupd attempting to get [com.apple.mobile.data_sync]:[(null)]
+09/30/22 12:45:25.408082 pid=80 handle_set_value: backupd attempting to set [com.apple.mobile.data_sync]:[Bookmarks] to [{
+    AccountNames =     (
+        iCloud
+    );
+    Sources =     (
+        iCloud
+    );
+}] of type 18
+09/30/22 12:45:25.408319 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.data_sync-Bookmarks
+09/30/22 12:45:25.409686 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:25.409900 pid=80 handle_set_value: backupd attempting to set [com.apple.mobile.data_sync]:[Contacts] to [{
+    AccountNames =     (
+        iCloud
+    );
+    Sources =     (
+        iCloud
+    );
+}] of type 18
+09/30/22 12:45:25.410056 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.data_sync-Contacts
+09/30/22 12:45:25.411415 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:25.411589 pid=80 handle_set_value: backupd attempting to set [com.apple.mobile.data_sync]:[Calendars] to [{
+    AccountNames =     (
+        iCloud
+    );
+    Sources =     (
+        iCloud
+    );
+}] of type 18
+09/30/22 12:45:25.411741 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.data_sync-Calendars
+09/30/22 12:45:25.412944 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:25.413105 pid=80 handle_set_value: backupd attempting to set [com.apple.mobile.data_sync]:[Notes] to [{
+    AccountNames =     (
+        iCloud
+    );
+    Sources =     (
+        iCloud
+    );
+}] of type 18
+09/30/22 12:45:25.413254 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.data_sync-Notes
+09/30/22 12:45:25.414762 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:25.414929 pid=80 handle_get_value: backupd attempting to get [com.apple.Accessibility]:[(null)]
+09/30/22 12:45:25.484035 pid=80 handle_remove_value: backupd attempting to remove [com.apple.Accessibility]:[MonoAudioEnabledByiTunes]
+09/30/22 12:45:25.484122 pid=80 handle_remove_value: backupd attempting to remove [com.apple.Accessibility]:[VoiceOverTouchEnabledByiTunes]
+09/30/22 12:45:25.484184 pid=80 handle_remove_value: backupd attempting to remove [com.apple.Accessibility]:[ClosedCaptioningEnabledByiTunes]
+09/30/22 12:45:25.484242 pid=80 handle_remove_value: backupd attempting to remove [com.apple.Accessibility]:[SpeakAutoCorrectionsEnabledByiTunes]
+09/30/22 12:45:25.484298 pid=80 handle_remove_value: backupd attempting to remove [com.apple.Accessibility]:[InvertDisplayEnabledByiTunes]
+09/30/22 12:45:25.484354 pid=80 handle_remove_value: backupd attempting to remove [com.apple.Accessibility]:[ZoomTouchEnabledByiTunes]
+09/30/22 12:45:25.484429 pid=80 handle_set_value: backupd attempting to set [com.apple.Accessibility]:[MonoAudioEnabledByiTunes] to [0] of type 22
+09/30/22 12:45:25.485864 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.Accessibility-MonoAudioEnabledByiTunes
+09/30/22 12:45:25.486390 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:25.486419 pid=80 handle_set_value: backupd attempting to set [com.apple.Accessibility]:[VoiceOverTouchEnabledByiTunes] to [0] of type 22
+09/30/22 12:45:25.487260 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.Accessibility-VoiceOverTouchEnabledByiTunes
+09/30/22 12:45:25.487782 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:25.487811 pid=80 handle_set_value: backupd attempting to set [com.apple.Accessibility]:[ClosedCaptioningEnabledByiTunes] to [0] of type 22
+09/30/22 12:45:25.488573 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.Accessibility-ClosedCaptioningEnabledByiTunes
+09/30/22 12:45:25.489117 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:25.489146 pid=80 handle_set_value: backupd attempting to set [com.apple.Accessibility]:[SpeakAutoCorrectionsEnabledByiTunes] to [0] of type 22
+09/30/22 12:45:25.490137 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.Accessibility-SpeakAutoCorrectionsEnabledByiTunes
+09/30/22 12:45:25.490739 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:25.490772 pid=80 handle_set_value: backupd attempting to set [com.apple.Accessibility]:[InvertDisplayEnabledByiTunes] to [0] of type 22
+09/30/22 12:45:25.507686 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.Accessibility-InvertDisplayEnabledByiTunes
+09/30/22 12:45:25.508112 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:25.508143 pid=80 handle_set_value: backupd attempting to set [com.apple.Accessibility]:[ZoomTouchEnabledByiTunes] to [0] of type 22
+09/30/22 12:45:25.509015 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.Accessibility-ZoomTouchEnabledByiTunes
+09/30/22 12:45:25.509500 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:25.509528 pid=80 handle_get_value: backupd attempting to get [com.apple.mobile.iTunes.accessories]:[(null)]
+09/30/22 12:45:25.509601 pid=80 handle_get_value: backupd attempting to get [com.apple.MobileDeviceCrashCopy]:[(null)]
+09/30/22 12:45:31.276533 pid=80 handle_get_value: backupd attempting to get [com.apple.mobile.backup]:[CloudBackupEnabled]
+09/30/22 12:45:31.276624 pid=80 special_case_get: key CloudBackupEnabled
+09/30/22 12:45:31.278475 pid=80 handle_set_value: backupd attempting to set [com.apple.mobile.backup]:[CloudBackupEnabled] to [true] of type 21
+09/30/22 12:45:31.528174 pid=80 data_ark_remove_extended_block_invoke: dirtied by removing com.apple.mobile.backup-CloudBackupEnabled
+09/30/22 12:45:31.528355 pid=80 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.backup-CloudBackupEnabled
+09/30/22 12:45:31.530163 pid=80 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:37.087985 pid=594 main: Starting Up
+09/30/22 12:45:37.372507 pid=594 enumerate_pair_records: Failed to open /private/var/root/Library/Lockdown/pair_records/: 2 (No such file or directory)
+09/30/22 12:45:37.375539 pid=594 mglog: libMobileGestalt MobileGestaltCache.c:167: Cache loaded with 5220 pre-cached in CacheData and 55 items in CacheExtra.
+09/30/22 12:45:39.502708 pid=594 data_ark_set_block_invoke: dirtied by changing -DeviceName
+09/30/22 12:45:39.504652 pid=594 lockstart_local: Build version: 20A380
+09/30/22 12:45:39.505119 pid=594 lockstart_local: Data Migration Completed: false
+09/30/22 12:45:39.505571 pid=594 get_device_type_internal_block_invoke: product_type: iPhone14,3
+
+09/30/22 12:45:39.505586 pid=594 get_device_type_internal_block_invoke: has_telephony: true, should_hactivate: false
+09/30/22 12:45:39.505597 pid=594 get_device_type_internal_block_invoke: baseband_class: 3, cert_type 1
+09/30/22 12:45:39.505607 pid=594 _load_product_type: using Raptor Certs
+09/30/22 12:45:39.551476 pid=594 data_ark_remove_extended_block_invoke: dirtied by removing com.apple.mobile.backup-CloudBackupEnabled
+09/30/22 12:45:39.558262 pid=594 refresh_remote_services_block_invoke: Done resetting remote devices.
+09/30/22 12:45:39.558283 pid=594 service_ark_load: Refreshed remote services.
+09/30/22 12:45:39.558451 pid=594 intialize_wifi_syncing: Full service name is '28:8e:ec:c3:d0:79@fe80::2a8e:ecff:fec3:d079-supportsRP._apple-mobdev2._tcp.local.'.
+09/30/22 12:45:39.676996 pid=594 notify_configd_block_invoke_2: Pinged configd, USB is now enabled.
+09/30/22 12:45:42.586134 pid=594 handle_set_value: com.apple.migrationpluginwrapper attempting to set [NULL]:[DeviceName] to [Lee Ann’s iPhone] of type 7
+09/30/22 12:45:42.690420 pid=594 handle_set_value: Warning (com.apple.migrationpluginwrapper): client com.apple.migrationpluginwrapper's entitlement plist must have a com.apple.private.lockdown.finegrained-set key whose value is an array containing the string NULL/DeviceName (non-fatal for now)
+09/30/22 12:45:42.690481 pid=594 handle_connection: but you didn't know the secret handshake
+09/30/22 12:45:42.691055 pid=594 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:44.338669 pid=594 handle_set_value: com.apple.migrationpluginwrapper attempting to set [com.apple.mobile.backup]:[WillEncrypt] to [false] of type 21
+09/30/22 12:45:44.339631 pid=594 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.backup-WillEncrypt
+09/30/22 12:45:44.339665 pid=594 handle_set_value: Warning (com.apple.migrationpluginwrapper): client com.apple.migrationpluginwrapper's entitlement plist must have a com.apple.private.lockdown.finegrained-set key whose value is an array containing the string com.apple.mobile.backup/WillEncrypt (non-fatal for now)
+09/30/22 12:45:45.146478 pid=594 data_ark_store_block_invoke: Saved.
+09/30/22 12:45:45.148467 pid=594 handle_set_value: profiled attempting to set [com.apple.mobile.restriction]:[ProhibitAppInstall] to [false] of type 21
+09/30/22 12:45:45.164119 pid=594 handle_set_value: profiled attempting to set [com.apple.mobile.restriction]:[ProhibitAppDelete] to [false] of type 21
+09/30/22 12:46:06.996245 pid=594 handle_get_value: backupd attempting to get [com.apple.mobile.backup]:[CloudBackupEnabled]
+09/30/22 12:46:06.996300 pid=594 special_case_get: key CloudBackupEnabled
+09/30/22 12:46:06.997280 pid=594 handle_set_value: backupd attempting to set [com.apple.mobile.backup]:[CloudBackupEnabled] to [true] of type 21
+09/30/22 12:46:06.997693 pid=594 data_ark_set_block_invoke: dirtied by changing com.apple.mobile.backup-CloudBackupEnabled
+09/30/22 12:46:06.998425 pid=594 data_ark_store_block_invoke: Saved.
+09/30/22 12:46:29.646803 pid=594 migrator_finished_callback: Data Migration is complete.
+09/30/22 12:46:29.647343 pid=594 main_block_invoke: Received notification: com.apple.datamigrator.migrationDidFinish
+09/30/22 12:46:29.696071 pid=594 handle_get_value: profiled attempting to get [BrickState]
+09/30/22 13:32:57.206597 pid=594 handle_set_value: backupd attempting to set [com.apple.purplebuddy]:[SetupState] to [RestoredFromiCloudBackup] of type 7
+09/30/22 13:32:57.210403 pid=594 data_ark_remove_extended_block_invoke: dirtied by removing com.apple.purplebuddy-SetupState
+09/30/22 13:32:57.210527 pid=594 data_ark_set_block_invoke: dirtied by changing com.apple.purplebuddy-SetupState
+09/30/22 13:32:57.212375 pid=594 data_ark_store_block_invoke: Saved.
+09/30/22 13:32:57.212522 pid=594 handle_set_value: backupd attempting to set [com.apple.purplebuddy]:[RestoreState] to [RestoredFromiCloudBackup] of type 7
+09/30/22 13:32:57.213617 pid=594 data_ark_remove_extended_block_invoke: dirtied by removing com.apple.purplebuddy-RestoreState
+09/30/22 13:32:57.213704 pid=594 data_ark_set_block_invoke: dirtied by changing com.apple.purplebuddy-RestoreState
+09/30/22 13:32:57.214895 pid=594 data_ark_store_block_invoke: Saved.
+09/30/22 13:41:54.373442 pid=594 mc_allow_pairing: hostMayPairWithOptions said yes with prompt
+09/30/22 13:41:54.373762 pid=594 handle_is_host_trusted: Host client com.apple.InternetTethering is not trusted.
+09/30/22 13:41:54.373839 pid=594 set_response_error: handle_is_host_trusted MissingHostID
